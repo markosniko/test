@@ -1,0 +1,46 @@
+html{
+    font-size:100%;
+}
+*{
+    margin:0px;
+    padding: 0;
+    box-sizing: border-box;
+}
+*::after,*::before{
+    box-sizing: inherit;
+}
+body{
+    font-size:0.75rem;
+    font-family:$primaryFontFamily;
+}
+ul[class]>li{
+    list-style:none;
+}
+a,a:hover,a:visited{
+    text-decoration:none;
+}
+// *
+.flex{
+    display:flex;
+}
+.flex-jc-sb{
+    justify-content: space-between;
+}
+// // *Open animation
+// .open{
+//     display:block;
+// }
+// .close{
+//     display:none;
+// }
+// // *Arrow rotate
+// .rotate{
+//     transform:rotate(180deg);
+// }
+// // *
+// .main-item-header-color{
+//     color:$neutrualVeryDark;
+// }
+// .open-item-header-color{
+//     color:black;
+// }
